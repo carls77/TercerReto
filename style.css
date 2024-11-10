@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(62, 136, 136, 0.767);
+    color: rgb(219, 232, 255);
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}   
+img {
+    height: 300px;
+    width: 500px;
+}
+
+.title{
+    text-align: center;
+}
+
+.navigation{
+    height: 120px;
+    background-color: rgb(19, 90, 90);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 46px;
+
+}
+.navigation>a{
+    color:white;
+   text-decoration: none;
+
+
+}
+section{
+    width: 500px;
+    
+    border-radius: 16px;
+    
+
+}
+
+
+section>h2{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(16, 121, 121);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
